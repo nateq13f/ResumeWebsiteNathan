@@ -3,6 +3,10 @@
 // Replace this with your own email address
 $siteOwnersEmail = 'nqwright9311@gmail.com';
 
+header("Access-Control-Allow-Orgin: *");
+header("Access-Control-Allow-Methods: *");
+header("Access-Control-Allow-Headers: *");
+
 
 if($_POST) {
 
