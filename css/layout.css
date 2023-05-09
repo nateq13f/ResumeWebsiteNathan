@@ -187,7 +187,7 @@ ul#nav li.current a { color: #F06000; }
 /* ------------------------------------------------------------------ */
 
 #about {
-   background: #2B2B2B;
+   background: hsla(0, 2%, 12%, 0.685);
    padding-top: 96px;
    padding-bottom: 66px;
    overflow: hidden;
@@ -236,19 +236,20 @@ ul#nav li.current a { color: #F06000; }
 /* ------------------------------------------------------------------ */
 
 #resume {
-   background: #fff;
+   background: #030b3173;
    padding-top: 90px;
    padding-bottom: 72px;
    overflow: hidden;
 }
 
 #resume a, #resume a:visited  { color: #11ABB0; }
-#resume a:hover, #resume a:focus { color: #313131; }
+#resume a:hover, #resume a:focus { color: #ffffff; }
 
 #resume h1 {
    font: 18px/24px 'opensans-bold', sans-serif;
    text-transform: uppercase;
    letter-spacing: 1px;
+   color:rgba(255, 255, 255, .7);
 }
 #resume h1 span {
    border-bottom: 3px solid #11ABB0;
@@ -256,6 +257,7 @@ ul#nav li.current a { color: #F06000; }
 }
 #resume h3 {
    font: 25px/30px 'opensans-bold', sans-serif;
+   color:rgba(252, 249, 249, 0.966);
 }
 
 #resume .header-col { padding-top: 9px; }
@@ -268,7 +270,7 @@ ul#nav li.current a { color: #F06000; }
 }
 #resume .info {
    font: 16px/24px 'librebaskerville-italic', serif;
-   color: #6E7881;
+   color: #ced8e0;
    margin-bottom: 18px;
    margin-top: 9px;
 }
